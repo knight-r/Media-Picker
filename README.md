@@ -22,7 +22,7 @@ Add the following dependency to your `build.gradle` file:
 dependencies {
     implementation "com.github.knight-r:Media-Picker:1.0.0" 
 }
-
+---
 ## Customization
 
 ### Set Maximum Number of Items
