@@ -22,3 +22,12 @@ Add the following dependency to your `build.gradle` file:
 dependencies {
     implementation "com.github.knight-r:Media-Picker:1.0.0" 
 }
+
+## Customization
+
+### Set Maximum Number of Items
+
+When initializing `MediaPicker`, you can specify the maximum number of items that can be selected. For example, to allow selecting up to 10 items:
+
+```kotlin
+val mediaPicker = MediaPicker(this, maxItems = 10) // Allow up to 10 items
